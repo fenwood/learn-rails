@@ -13,6 +13,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'byebug'
 gem 'web-console'
 gem 'spring'
+gem 'actioncable'
 
 # learn-rails
 gem 'foundation-rails'

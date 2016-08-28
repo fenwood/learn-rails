@@ -1,6 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    actioncable (0.0.0)
     actionmailer (4.2.4)
       actionpack (= 4.2.4)
       actionview (= 4.2.4)
@@ -133,7 +134,7 @@ GEM
       sprockets (>= 2.8, < 4.0)
       sprockets-rails (>= 2.0, < 4.0)
       tilt (>= 1.1, < 3)
-    simple_form (3.3.0)
+    simple_form (3.3.1)
       actionpack (> 4, < 5.1)
       activemodel (> 4, < 5.1)
     spring (1.7.2)
@@ -168,6 +169,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  actioncable
   better_errors
   byebug
   coffee-rails (~> 4.2)
